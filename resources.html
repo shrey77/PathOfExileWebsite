@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Path of Exile Project</title>
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript">
+	function alertLoad() {
+		alert("Resource page has loaded.");
+	}
+	window.onbeforeunload = function() {
+		return("Leaving Resource page.");
+	}
+	
+	</script>
+</head>
+<body onload="alertLoad()">
+	<nav class="nav_bar">
+		<img class="poe_logo" src="images/poe_logo.png">
+		</img>
+		<a href="index.html">Home</a>
+		<a href="duelist.html">Duelist</a>
+		<a href="marauder.html">Marauder</a>
+		<a href="ranger.html">Ranger</a>
+		<a href="scion.html">Scion</a>
+		<a href="shadow.html">Shadow</a>
+		<a href="templar.html">Templar</a>
+		<a href="witch.html">Witch</a>
+		<a href="resources.html">Resources</a>
+	</nav>
+	<main>
+		<div class="maintext">
+			<h1>Path of Exile Resources</h1>
+			<div class="columns">
+				<div class="col_1">
+				<h2>Class Build Resources</h2>
+				<p><a href="https://www.pathofexile.com/forum">Path of Exile Main Website Forums</a></p>
+				<p><a href="https://www.poebuilds.io/builds/hc">Path of Exile Ladder Builds</a></p>
+				<p><a href="https://www.reddit.com/r/PathOfExileBuilds/">Reddit for Path of Exile Builds</a></p>
+				</div>
+				<div class="col_2">
+				<h2>Contact Me Regarding Questions</h2>
+				<form action="mailto:shreyp95@yahoo.com" method="post" enctype="text/plain">
+					<label for="myFName">First Name:</label>
+					<input type="text" name="myFName" id="myFName" required><br>
+					<label for="myLName">Last Name:</label>
+					<input type="text" name="myLName" id="myLName" required><br>
+					<label for="myEmail">E-mail:</label>
+					<input type="email" name="myEmail" id="myEmail" required><br>
+					<label for="myComments">Comments:</label>
+					<textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea><br>
+					<input type="submit" id="mySubmit" value="Submit">
+				</form>
+				</div>
+				<div class="col_3">
+				<h2>Helpful Links</h2>
+				<p><a href="https://www.pathofexile.com">Path of Exile Main Website</a></p>
+				<p><a href="https://www.youtube.com/channel/UCA7X5unt1JrIiVReQDUbl_A">Path of Exile Youtube Channel</a></p>
+				<p><a href="https://pathofexile.gamepedia.com/Path_of_Exile_Wiki">Path of Exile Wiki</a></p>
+				<p><a href="https://www.reddit.com/r/pathofexile/">Reddit for Path of Exile</a></p>
+				<p><a href="https://www.twitch.tv/directory/game/Path%20of%20Exile">Path of Exile on Twitch.TV</a></p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>Path of Exile Information - Shrey Patel <br/>Contact: 
+		<a href="mailto:shreyp95@yahoo.com">shreyp95@yahoo.com</a></p>
+	</footer>
+</body>
+
+</html>

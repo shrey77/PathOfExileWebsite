@@ -1,0 +1,230 @@
+body {
+	margin: 0;
+	background-image: url("images/poe_background.jpg");
+	background-size: cover;
+	color: #f2f2f2;
+}
+
+.nav_bar {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.poe_logo {
+	float: left;
+	width: 11%;
+}
+
+.nav_bar a {
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	font-size: 200%;
+	padding: 15px 20px;
+	float: left;
+	line-height: 92px;
+}
+
+main {
+	background-color: #232222;
+	border: 2px solid #440303;
+	border-radius: 15px;
+	margin: 10% 10% 5% 10%;
+	overflow: hidden;
+}
+
+.maintext {
+	padding: 30px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 200%;
+}
+
+h1, h2, .nav_bar {
+	font-family: Arial;
+}
+
+table { 
+	border: 1px solid #f2f2f2; 
+	border-collapse: collapse;
+}
+
+td, th { 
+	padding: 5px;
+	border: 1px solid #f2f2f2;
+}
+
+td { 
+	text-align: center;
+}
+
+tr:nth-of-type(even) { 
+	background: #440303;
+}
+
+.gif {
+	float: right;
+	top: 0;
+}
+
+.discharge_gif {
+	width: 100%;
+}
+
+.skill_tree {
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	color: #f2f2f2;
+}
+
+.poe_classes {
+	float: right;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	width: 30%;
+}
+
+.duelist {
+	width: 100%;
+}
+
+.marauder {
+	width: 100%;
+}
+
+.ranger {
+	width: 100%;
+}
+
+.scion {
+	width: 100%;
+}
+
+.shadow {
+	width: 100%;
+}
+
+.templar {
+	width: 100%;
+}
+
+.witch {
+	width: 100%;
+}
+
+footer {
+	font-size: 0.70em;
+	font-style: italic;
+	text-align: center;
+}
+
+.columns {
+	border: 1px solid #3c3c3c;
+	display: table;
+	width: 100%;
+}
+
+.col_1 {
+	width: 21%;
+	padding: 2%;
+	float: left;
+}
+
+.col_2 {
+	width: 46%;
+	background-color: #3c3c3c;
+	float: left;
+	padding: 2%;
+}
+
+.col_3 {
+	width: 21%;
+	float: left;
+	padding: 2%;
+}
+
+label { 
+	float: left; 
+	display: block; 
+	width: 8em; 
+	padding-right: 20px; 
+}
+
+input, textarea { 
+	display: block; 
+}
+
+#mySubmit { 
+	margin-left: 47%;
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		margin: 0;
+		padding: 0;
+		background-image: none;
+	}
+	
+	main {
+		margin: 0;
+	}
+	
+	.maintext {
+		padding: 3em;
+	}
+
+	h1 {
+		margin: 0;
+	}
+	
+	.nav_bar {
+		width: auto;
+	}
+	
+	.nav_bar a {
+		padding: 1em;
+		font-size: 0.5em;
+		line-height: 0;
+	}
+	
+	footer {
+		margin: 0;
+	}
+}
+
+@media print {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	
+	main {
+		margin: 0;
+	}
+	
+	.maintext {
+		padding: 10em;
+	}
+
+	h1 {
+		margin: 0;
+	}
+	
+	.nav_bar a {
+		padding: 1em;
+		font-size: 1.5em;
+		line-height: 0;
+	}
+	
+	footer {
+		margin: 0;
+	}
+}
